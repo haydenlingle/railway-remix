@@ -1,5 +1,5 @@
 [phases.install]
 cmds = ["npm ci --omit=dev"]
 
-[start]
+[phases.start]
 cmds = ["remix-serve ./build/server/index.js"] 
