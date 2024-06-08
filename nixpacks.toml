@@ -2,4 +2,4 @@
 cmds = ["npm ci --omit=dev"]
 
 [phases.start]
-cmds = ["remix-serve ./build/server/index.js"]
+cmds = ["remix-serve ./build/server/index.js"] 
